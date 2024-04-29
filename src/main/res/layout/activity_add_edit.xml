@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- EditText for event name -->
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:layout_margin="16dp"/>
+
+    <!-- EditText for event date -->
+    <EditText
+        android:id="@+id/editTextEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date (optional)"
+        android:layout_below="@id/editTextEventName"
+        android:layout_margin="16dp"/>
+
+    <!-- EditText for event location -->
+    <EditText
+        android:id="@+id/editTextEventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Location (optional)"
+        android:layout_below="@id/editTextEventDate"
+        android:layout_margin="16dp"/>
+
+    <!-- Button to save event -->
+    <Button
+        android:id="@+id/buttonSaveEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEventLocation"
+        android:layout_centerHorizontal="true"
+        android:text="Save Event"/>
+
+</RelativeLayout>

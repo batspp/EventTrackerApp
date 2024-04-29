@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="permission">Permission</string>
+    <string name="enable_sms_permission">Enable SMS permission</string>
+</resources>
